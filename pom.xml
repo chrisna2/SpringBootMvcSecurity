@@ -37,6 +37,11 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope><!-- src/test/ 아래 디렉토리 안에서만 사용이 가능한 의존성 파일 -->
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
 	</dependencies>
 
 	<build>

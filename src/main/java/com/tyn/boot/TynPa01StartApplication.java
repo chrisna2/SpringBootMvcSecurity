@@ -1,7 +1,10 @@
 package com.tyn.boot;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.tyn.boot.listener.TynStartingListener;
 
 @SpringBootApplication
 public class TynPa01StartApplication {
@@ -34,7 +37,18 @@ public class TynPa01StartApplication {
 	 *   
 	 */
 	public static void main(String[] args) {
-		SpringApplication.run(TynPa01StartApplication.class, args);
+		//아래의 메서드도 수정가능. 
+		//SpringApplication.run(TynPa01StartApplication.class, args);
+		//위에 거나 아래 거나 같다.
+		SpringApplication application = new SpringApplication(TynPa01StartApplication.class);
+		//다만 여기서 추가 옵션이 추가 가능하다 : 다음음 웹 어플이 아닌 경우
+     	//application.setWebApplicationType(WebApplicationType.NONE);
+		//application.setWebApplicationType(WebApplicationType.SERVLET);
+		//application.setWebApplicationType(WebApplicationType.webFlux);
+		
+		//starting Listener 추가 : 웹 프로젝트가 실행 되기 전에 사전 작업 
+		application.addListeners(new TynStartingListener());		
+		application.run(args);
 	}
 
 }
