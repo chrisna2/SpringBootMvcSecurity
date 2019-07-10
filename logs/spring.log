@@ -1550,3 +1550,867 @@ Caused by: java.lang.Error: Unresolved compilation problems:
 2019-07-10 20:12:14.837  INFO 9784 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-6 - Starting...
 2019-07-10 20:12:14.839  INFO 9784 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-6 - Start completed.
 2019-07-10 20:12:14.840  INFO 9784 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-10 20:15:43.601  INFO 9784 --- [Thread-48] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-10 20:15:43.602  INFO 9784 --- [Thread-48] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:15:43.602  INFO 9784 --- [Thread-48] c.z.h.HikariDataSource                   : HikariPool-6 - Shutdown initiated...
+2019-07-10 20:15:43.602  INFO 9784 --- [Thread-48] c.z.h.HikariDataSource                   : HikariPool-6 - Shutdown completed.
+2019-07-10 20:15:43.921  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 9784 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:15:43.921 DEBUG 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:15:43.921  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:15:44.213  INFO 9784 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:15:44.215  INFO 9784 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:15:44.215  INFO 9784 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:15:44.225  INFO 9784 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:15:44.225  INFO 9784 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 302 ms
+2019-07-10 20:15:44.287  INFO 9784 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:15:44.306  INFO 9784 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-07-10 20:15:44.333  INFO 9784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-10 20:15:44.348  INFO 9784 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-10 20:15:44.348  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 0.461 seconds (JVM running for 368.062)
+2019-07-10 20:15:44.350  INFO 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-07-10 20:15:44.350 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-07-10 20:15:44.350 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-07-10 20:15:44.350 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 50
+2019-07-10 20:15:44.350  INFO 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-07-10 20:15:44.350 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-07-10 20:15:44.351  INFO 9784 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-7 - Starting...
+2019-07-10 20:15:44.357  INFO 9784 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-7 - Start completed.
+2019-07-10 20:15:44.359  INFO 9784 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-10 20:19:10.518  INFO 9784 --- [Thread-56] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-10 20:19:10.519  INFO 9784 --- [Thread-56] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:19:10.519  INFO 9784 --- [Thread-56] c.z.h.HikariDataSource                   : HikariPool-7 - Shutdown initiated...
+2019-07-10 20:19:10.521  INFO 9784 --- [Thread-56] c.z.h.HikariDataSource                   : HikariPool-7 - Shutdown completed.
+2019-07-10 20:19:10.783  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 9784 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:19:10.783 DEBUG 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:19:10.783  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:19:11.017  INFO 9784 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:19:11.018  INFO 9784 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:19:11.018  INFO 9784 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:19:11.028  INFO 9784 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:19:11.028  INFO 9784 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 243 ms
+2019-07-10 20:19:11.095  INFO 9784 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:19:11.114  INFO 9784 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-07-10 20:19:11.142  INFO 9784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-10 20:19:11.159  INFO 9784 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-10 20:19:11.161  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 0.411 seconds (JVM running for 574.875)
+2019-07-10 20:19:11.169  INFO 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-07-10 20:19:11.169 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-07-10 20:19:11.169 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-07-10 20:19:11.169 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 88
+2019-07-10 20:19:11.169  INFO 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-07-10 20:19:11.170 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-07-10 20:19:11.170  INFO 9784 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-8 - Starting...
+2019-07-10 20:19:11.173  INFO 9784 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-8 - Start completed.
+2019-07-10 20:19:11.175  INFO 9784 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-10 20:20:03.123  INFO 9784 --- [Thread-64] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-10 20:20:03.123  INFO 9784 --- [Thread-64] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:20:03.123  INFO 9784 --- [Thread-64] c.z.h.HikariDataSource                   : HikariPool-8 - Shutdown initiated...
+2019-07-10 20:20:03.125  INFO 9784 --- [Thread-64] c.z.h.HikariDataSource                   : HikariPool-8 - Shutdown completed.
+2019-07-10 20:20:03.402  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 9784 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:20:03.402 DEBUG 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:20:03.402  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:20:03.619  INFO 9784 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:20:03.620  INFO 9784 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:20:03.620  INFO 9784 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:20:03.633  INFO 9784 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:20:03.633  INFO 9784 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 230 ms
+2019-07-10 20:20:03.711  INFO 9784 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:20:03.727  INFO 9784 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-07-10 20:20:03.749  INFO 9784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-10 20:20:03.760  INFO 9784 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-10 20:20:03.761  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 0.392 seconds (JVM running for 627.475)
+2019-07-10 20:20:03.762  INFO 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-07-10 20:20:03.762 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-07-10 20:20:03.762 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-07-10 20:20:03.762 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 77
+2019-07-10 20:20:03.762  INFO 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-07-10 20:20:03.762 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-07-10 20:20:03.775  INFO 9784 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-10 20:20:03.782 ERROR 9784 --- [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+java.lang.Error: Unresolved compilation problem: 
+	Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+
+	at com.tyn.boot.runner.DataBaseRunner.run(DataBaseRunner.java:34) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:760) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.tyn.boot.TynPa01StartApplication.main(TynPa01StartApplication.java:51) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+
+2019-07-10 20:20:03.804  INFO 9784 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-9 - Starting...
+2019-07-10 20:20:03.806  INFO 9784 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-9 - Start completed.
+2019-07-10 20:20:03.806  INFO 9784 --- [restartedMain] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-10 20:20:03.807  INFO 9784 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:20:03.807  INFO 9784 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-9 - Shutdown initiated...
+2019-07-10 20:20:03.807  INFO 9784 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-9 - Shutdown completed.
+2019-07-10 20:23:12.369  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 9784 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:23:12.369 DEBUG 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:23:12.369  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:23:12.593  INFO 9784 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:23:12.593  INFO 9784 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:23:12.594  INFO 9784 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:23:12.601  INFO 9784 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:23:12.602  INFO 9784 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 231 ms
+2019-07-10 20:23:12.690  INFO 9784 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:23:12.720  INFO 9784 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-07-10 20:23:12.752  INFO 9784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-10 20:23:12.768  INFO 9784 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-10 20:23:12.769  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 0.424 seconds (JVM running for 816.482)
+2019-07-10 20:23:12.771  INFO 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-07-10 20:23:12.771 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-07-10 20:23:12.771 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-07-10 20:23:12.771 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 9
+2019-07-10 20:23:12.771  INFO 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-07-10 20:23:12.773 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-07-10 20:23:12.774  INFO 9784 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-10 - Starting...
+2019-07-10 20:23:12.777  INFO 9784 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-10 - Start completed.
+2019-07-10 20:23:12.787  INFO 9784 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-10 20:23:12.787 ERROR 9784 --- [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+java.lang.IllegalStateException: Failed to execute ApplicationRunner
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:773) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:760) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.tyn.boot.TynPa01StartApplication.main(TynPa01StartApplication.java:51) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE USER(ID INTEGER NOT NULL, NAME VARCHAR(255), PRIMARY KEY(ID)[*]"; expected "INDEX, ,, )"; SQL statement:
+CREATE TABLE USER(ID INTEGER NOT NULL, NAME VARCHAR(255), PRIMARY KEY(ID) [42001-199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:451) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:427) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.message.DbException.getSyntaxError(DbException.java:243) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.getSyntaxError(Parser.java:991) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.read(Parser.java:4549) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.readIfMore(Parser.java:1391) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseCreateTable(Parser.java:7833) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parseCreate(Parser.java:5818) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parsePrepared(Parser.java:846) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parse(Parser.java:788) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.parse(Parser.java:764) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.command.Parser.prepareCommand(Parser.java:683) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.engine.Session.prepareLocal(Session.java:627) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.engine.Session.prepareCommand(Session.java:565) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1292) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:165) ~[h2-1.4.199.jar:1.4.199]
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126) ~[h2-1.4.199.jar:1.4.199]
+	at com.zaxxer.hikari.pool.ProxyStatement.executeUpdate(ProxyStatement.java:120) ~[HikariCP-3.2.0.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyStatement.executeUpdate(HikariProxyStatement.java) ~[HikariCP-3.2.0.jar:?]
+	at com.tyn.boot.runner.DataBaseRunner.run(DataBaseRunner.java:37) ~[classes/:?]
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:770) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	... 8 more
+
+2019-07-10 20:23:12.789  INFO 9784 --- [restartedMain] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-10 20:23:12.789  INFO 9784 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:23:12.789  INFO 9784 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-10 - Shutdown initiated...
+2019-07-10 20:23:12.790  INFO 9784 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-10 - Shutdown completed.
+2019-07-10 20:23:38.668  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 9784 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:23:38.669 DEBUG 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:23:38.669  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:23:38.859  INFO 9784 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:23:38.860  INFO 9784 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:23:38.860  INFO 9784 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:23:38.868  INFO 9784 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:23:38.868  INFO 9784 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 198 ms
+2019-07-10 20:23:38.922  INFO 9784 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:23:38.937  INFO 9784 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-07-10 20:23:38.958  INFO 9784 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-10 20:23:38.969  INFO 9784 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-10 20:23:38.970  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 0.323 seconds (JVM running for 842.684)
+2019-07-10 20:23:38.972  INFO 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-07-10 20:23:38.972 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-07-10 20:23:38.972 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-07-10 20:23:38.972 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 97
+2019-07-10 20:23:38.972  INFO 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-07-10 20:23:38.972 DEBUG 9784 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-07-10 20:23:38.973  INFO 9784 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-11 - Starting...
+2019-07-10 20:23:38.975  INFO 9784 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-11 - Start completed.
+2019-07-10 20:23:39.015  INFO 9784 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-10 20:39:02.856  INFO 9784 --- [Thread-72] o.s.b.f.s.DisposableBeanAdapter          : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-199]
+2019-07-10 20:39:02.856  INFO 9784 --- [Thread-72] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:39:02.856  INFO 9784 --- [Thread-72] c.z.h.HikariDataSource                   : HikariPool-11 - Shutdown initiated...
+2019-07-10 20:39:02.859  INFO 9784 --- [Thread-72] c.z.h.HikariDataSource                   : HikariPool-11 - Shutdown completed.
+2019-07-10 20:39:03.103  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 9784 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:39:03.103 DEBUG 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:39:03.103  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:39:03.339  INFO 9784 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:39:03.340  INFO 9784 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:39:03.340  INFO 9784 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:39:03.348  INFO 9784 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:39:03.349  INFO 9784 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 245 ms
+2019-07-10 20:39:03.369  WARN 9784 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataBaseRunner': Unsatisfied dependency expressed through field 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+2019-07-10 20:39:03.370  INFO 9784 --- [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2019-07-10 20:39:03.375  INFO 9784 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-10 20:39:03.375 ERROR 9784 --- [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataBaseRunner': Unsatisfied dependency expressed through field 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.tyn.boot.TynPa01StartApplication.main(TynPa01StartApplication.java:51) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 22 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 22 more
+Caused by: java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.util.Assert.state(Assert.java:94) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:222) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:174) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:85) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$f17c709e.CGLIB$dataSource$0(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$f17c709e$$FastClassBySpringCGLIB$$47bfe4ed.invoke(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$f17c709e.dataSource(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 22 more
+
+2019-07-10 20:40:25.618  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 9784 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:40:25.618 DEBUG 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:40:25.618  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:40:25.849  INFO 9784 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:40:25.850  INFO 9784 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:40:25.850  INFO 9784 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:40:25.860  INFO 9784 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:40:25.860  INFO 9784 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 240 ms
+2019-07-10 20:40:25.880  WARN 9784 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataBaseRunner': Unsatisfied dependency expressed through field 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+2019-07-10 20:40:25.881  INFO 9784 --- [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2019-07-10 20:40:25.885  INFO 9784 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-10 20:40:25.885 ERROR 9784 --- [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataBaseRunner': Unsatisfied dependency expressed through field 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.tyn.boot.TynPa01StartApplication.main(TynPa01StartApplication.java:51) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 22 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 22 more
+Caused by: java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.util.Assert.state(Assert.java:94) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:222) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:174) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:85) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$f17c709e.CGLIB$dataSource$0(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$f17c709e$$FastClassBySpringCGLIB$$47bfe4ed.invoke(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$f17c709e.dataSource(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 22 more
+
+2019-07-10 20:40:33.429  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 9784 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:40:33.429 DEBUG 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:40:33.429  INFO 9784 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:40:33.616  INFO 9784 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:40:33.617  INFO 9784 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:40:33.617  INFO 9784 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:40:33.625  INFO 9784 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:40:33.626  INFO 9784 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 196 ms
+2019-07-10 20:40:33.644  WARN 9784 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataBaseRunner': Unsatisfied dependency expressed through field 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+2019-07-10 20:40:33.645  INFO 9784 --- [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2019-07-10 20:40:33.648  INFO 9784 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-10 20:40:33.648 ERROR 9784 --- [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataBaseRunner': Unsatisfied dependency expressed through field 'dataSource'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.tyn.boot.TynPa01StartApplication.main(TynPa01StartApplication.java:51) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:627) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 22 more
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception; nested exception is java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:185) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 22 more
+Caused by: java.lang.IllegalStateException: Cannot load driver class: com.mysql.cj.jdbc.Driver
+	at org.springframework.util.Assert.state(Assert.java:94) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.determineDriverClassName(DataSourceProperties.java:222) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceProperties.initializeDataSourceBuilder(DataSourceProperties.java:174) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration.createDataSource(DataSourceConfiguration.java:43) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari.dataSource(DataSourceConfiguration.java:85) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$f17c709e.CGLIB$dataSource$0(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$f17c709e$$FastClassBySpringCGLIB$$47bfe4ed.invoke(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari$$EnhancerBySpringCGLIB$$f17c709e.dataSource(<generated>) ~[spring-boot-autoconfigure-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:622) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:607) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1321) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1160) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 22 more
+
+2019-07-10 20:42:57.991  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 9496 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:42:57.997 DEBUG 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:42:57.997  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:42:58.028  INFO 9496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-10 20:42:58.028  INFO 9496 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-10 20:42:58.865  INFO 9496 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:42:58.890  INFO 9496 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:42:58.891  INFO 9496 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:42:58.992  INFO 9496 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:42:58.992  INFO 9496 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 964 ms
+2019-07-10 20:42:59.237  INFO 9496 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:42:59.307  INFO 9496 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-07-10 20:42:59.482  INFO 9496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-10 20:42:59.516  INFO 9496 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-10 20:42:59.519  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 1.869 seconds (JVM running for 2.616)
+2019-07-10 20:42:59.520  INFO 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-07-10 20:42:59.520 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-07-10 20:42:59.520 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-07-10 20:42:59.520 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 36
+2019-07-10 20:42:59.520  INFO 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-07-10 20:42:59.521 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-07-10 20:42:59.523  INFO 9496 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-07-10 20:42:59.763  INFO 9496 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2019-07-10 20:44:11.730  INFO 9496 --- [Thread-7] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:44:11.730  INFO 9496 --- [Thread-7] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-07-10 20:44:11.734  INFO 9496 --- [Thread-7] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2019-07-10 20:44:12.014  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 9496 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:44:12.014 DEBUG 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:44:12.014  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:44:12.263  INFO 9496 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:44:12.264  INFO 9496 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:44:12.264  INFO 9496 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:44:12.274  INFO 9496 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:44:12.274  INFO 9496 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 258 ms
+2019-07-10 20:44:12.354  INFO 9496 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:44:12.378  INFO 9496 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-07-10 20:44:12.404  INFO 9496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-10 20:44:12.417  INFO 9496 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-10 20:44:12.417  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 0.435 seconds (JVM running for 75.515)
+2019-07-10 20:44:12.419  INFO 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-07-10 20:44:12.419 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-07-10 20:44:12.419 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-07-10 20:44:12.420 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 35
+2019-07-10 20:44:12.420  INFO 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-07-10 20:44:12.420 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-07-10 20:44:12.420  INFO 9496 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2019-07-10 20:44:12.425  INFO 9496 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2019-07-10 20:44:12.428  INFO 9496 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-10 20:51:32.827  INFO 9496 --- [Thread-15] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:51:32.828  INFO 9496 --- [Thread-15] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown initiated...
+2019-07-10 20:51:32.834  INFO 9496 --- [Thread-15] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown completed.
+2019-07-10 20:51:33.190  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 9496 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:51:33.190 DEBUG 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:51:33.190  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:51:33.509  INFO 9496 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:51:33.511  INFO 9496 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:51:33.511  INFO 9496 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:51:33.524  INFO 9496 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:51:33.525  INFO 9496 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 332 ms
+2019-07-10 20:51:33.636  INFO 9496 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:51:33.670  INFO 9496 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-07-10 20:51:33.714  INFO 9496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-10 20:51:33.739  INFO 9496 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-10 20:51:33.741  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 0.596 seconds (JVM running for 516.838)
+2019-07-10 20:51:33.745  INFO 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-07-10 20:51:33.745 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-07-10 20:51:33.745 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-07-10 20:51:33.745 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 7
+2019-07-10 20:51:33.745  INFO 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-07-10 20:51:33.745 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-07-10 20:51:33.746  INFO 9496 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Starting...
+2019-07-10 20:51:33.751  INFO 9496 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Start completed.
+2019-07-10 20:51:33.754  INFO 9496 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-10 20:53:30.571  INFO 9496 --- [Thread-23] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:53:30.575  INFO 9496 --- [Thread-23] c.z.h.HikariDataSource                   : HikariPool-3 - Shutdown initiated...
+2019-07-10 20:53:30.586  INFO 9496 --- [Thread-23] c.z.h.HikariDataSource                   : HikariPool-3 - Shutdown completed.
+2019-07-10 20:53:36.204  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 9496 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:53:36.205 DEBUG 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:53:36.205  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:53:36.618  INFO 9496 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:53:36.619  INFO 9496 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:53:36.619  INFO 9496 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:53:36.643  INFO 9496 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:53:36.644  INFO 9496 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 437 ms
+2019-07-10 20:53:36.717  INFO 9496 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:53:36.740  INFO 9496 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-07-10 20:53:36.764  INFO 9496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-10 20:53:36.776  INFO 9496 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-10 20:53:36.777  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 0.605 seconds (JVM running for 639.874)
+2019-07-10 20:53:36.778  INFO 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-07-10 20:53:36.778 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-07-10 20:53:36.780 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-07-10 20:53:36.780 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 33
+2019-07-10 20:53:36.780  INFO 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-07-10 20:53:36.780 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-07-10 20:53:36.781  INFO 9496 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Starting...
+2019-07-10 20:53:36.787  INFO 9496 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Start completed.
+2019-07-10 20:53:36.791  INFO 9496 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-10 20:53:41.235  INFO 9496 --- [Thread-31] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:53:41.240  INFO 9496 --- [Thread-31] c.z.h.HikariDataSource                   : HikariPool-4 - Shutdown initiated...
+2019-07-10 20:53:41.256  INFO 9496 --- [Thread-31] c.z.h.HikariDataSource                   : HikariPool-4 - Shutdown completed.
+2019-07-10 20:53:41.543  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 9496 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:53:41.544 DEBUG 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:53:41.544  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:53:41.788  INFO 9496 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:53:41.789  INFO 9496 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:53:41.789  INFO 9496 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:53:41.799  INFO 9496 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:53:41.799  INFO 9496 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 253 ms
+2019-07-10 20:53:41.870  INFO 9496 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:53:41.894  INFO 9496 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-07-10 20:53:41.929  INFO 9496 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-10 20:53:41.944  INFO 9496 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-10 20:53:41.945  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 0.434 seconds (JVM running for 645.042)
+2019-07-10 20:53:41.950  INFO 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-07-10 20:53:41.951 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : HyunKee
+2019-07-10 20:53:41.951 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : HyunKee Na
+2019-07-10 20:53:41.951 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 96
+2019-07-10 20:53:41.951  INFO 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-07-10 20:53:41.951 DEBUG 9496 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-07-10 20:53:41.951  INFO 9496 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-5 - Starting...
+2019-07-10 20:53:41.961  INFO 9496 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-5 - Start completed.
+2019-07-10 20:53:41.964  INFO 9496 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-07-10 20:53:47.375  INFO 9496 --- [Thread-42] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:53:47.375  INFO 9496 --- [Thread-42] c.z.h.HikariDataSource                   : HikariPool-5 - Shutdown initiated...
+2019-07-10 20:53:47.380  INFO 9496 --- [Thread-42] c.z.h.HikariDataSource                   : HikariPool-5 - Shutdown completed.
+2019-07-10 20:53:47.644  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 9496 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:53:47.644 DEBUG 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:53:47.644  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:53:47.866  INFO 9496 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:53:47.866  INFO 9496 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:53:47.867  INFO 9496 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:53:47.876  INFO 9496 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:53:47.876  INFO 9496 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 230 ms
+2019-07-10 20:53:47.903  WARN 9496 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'propertyRunner': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'hyunkee.name' in value "${hyunkee.name}"
+2019-07-10 20:53:47.950  INFO 9496 --- [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2019-07-10 20:53:47.953  INFO 9496 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-10 20:53:47.955 ERROR 9496 --- [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'propertyRunner': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'hyunkee.name' in value "${hyunkee.name}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.tyn.boot.TynPa01StartApplication.main(TynPa01StartApplication.java:51) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'hyunkee.name' in value "${hyunkee.name}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1188) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 20 more
+
+2019-07-10 20:54:06.080  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 9496 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:54:06.080 DEBUG 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:54:06.081  INFO 9496 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:54:06.291  INFO 9496 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:54:06.292  INFO 9496 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:54:06.292  INFO 9496 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:54:06.304  INFO 9496 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:54:06.304  INFO 9496 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 222 ms
+2019-07-10 20:54:06.337  WARN 9496 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'propertyRunner': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'hyunkee.name' in value "${hyunkee.name} Na2"
+2019-07-10 20:54:06.337  INFO 9496 --- [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2019-07-10 20:54:06.341  INFO 9496 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-10 20:54:06.342 ERROR 9496 --- [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'propertyRunner': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'hyunkee.name' in value "${hyunkee.name} Na2"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.tyn.boot.TynPa01StartApplication.main(TynPa01StartApplication.java:51) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'hyunkee.name' in value "${hyunkee.name} Na2"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:228) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:88) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:62) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:539) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$1.getProperty(PropertySourcesPlaceholderConfigurer.java:137) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$1.getProperty(PropertySourcesPlaceholderConfigurer.java:133) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:85) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getPropertyAsRawString(PropertySourcesPropertyResolver.java:74) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:145) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1188) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 20 more
+
+2019-07-10 20:54:17.456  INFO 9260 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 9260 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:54:17.461 DEBUG 9260 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:54:17.462  INFO 9260 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:54:17.497  INFO 9260 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-10 20:54:17.498  INFO 9260 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-10 20:54:18.080  INFO 9260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-10 20:54:18.116  INFO 9260 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2019-07-10 20:54:18.434  INFO 9260 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$34376865] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 20:54:18.664  INFO 9260 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:54:18.682  INFO 9260 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:54:18.683  INFO 9260 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:54:18.781  INFO 9260 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:54:18.781  INFO 9260 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1283 ms
+2019-07-10 20:54:18.938  INFO 9260 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-07-10 20:54:19.053  INFO 9260 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2019-07-10 20:54:19.282  INFO 9260 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-10 20:54:19.368  INFO 9260 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-10 20:54:19.370  INFO 9260 --- [restartedMain] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-07-10 20:54:19.556  INFO 9260 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-10 20:54:19.727  INFO 9260 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-10 20:54:19.866  INFO 9260 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 20:54:19.896  WARN 9260 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'propertyRunner': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'hyunkee.name' in value "${hyunkee.name} Na2"
+2019-07-10 20:54:19.898  INFO 9260 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 20:54:19.909  INFO 9260 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-07-10 20:54:19.913  INFO 9260 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2019-07-10 20:54:19.914  INFO 9260 --- [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2019-07-10 20:54:19.924  INFO 9260 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-07-10 20:54:19.931 ERROR 9260 --- [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'propertyRunner': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'hyunkee.name' in value "${hyunkee.name} Na2"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) [spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+	at com.tyn.boot.TynPa01StartApplication.main(TynPa01StartApplication.java:51) [classes/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_202]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_202]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_202]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_202]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'hyunkee.name' in value "${hyunkee.name} Na2"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:172) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:228) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:88) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:62) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:539) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$1.getProperty(PropertySourcesPlaceholderConfigurer.java:137) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$1.getProperty(PropertySourcesPlaceholderConfigurer.java:133) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:85) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getPropertyAsRawString(PropertySourcesPropertyResolver.java:74) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:145) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211) ~[spring-core-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1188) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
+	... 20 more
+
+2019-07-10 20:56:01.844  INFO 15684 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 15684 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
+2019-07-10 20:56:01.851 DEBUG 15684 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-07-10 20:56:01.851  INFO 15684 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-07-10 20:56:01.885  INFO 15684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-07-10 20:56:01.885  INFO 15684 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-07-10 20:56:02.423  INFO 15684 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-07-10 20:56:02.443  INFO 15684 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13ms. Found 0 repository interfaces.
+2019-07-10 20:56:02.713  INFO 15684 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b2949338] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-07-10 20:56:02.944  INFO 15684 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-07-10 20:56:02.963  INFO 15684 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-07-10 20:56:02.963  INFO 15684 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-07-10 20:56:03.060  INFO 15684 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-07-10 20:56:03.060  INFO 15684 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1175 ms
+2019-07-10 20:56:03.193  INFO 15684 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2019-07-10 20:56:03.352  INFO 15684 --- [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2019-07-10 20:56:03.392  INFO 15684 --- [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-07-10 20:56:03.445  INFO 15684 --- [restartedMain] o.h.Version                              : HHH000412: Hibernate Core {5.3.10.Final}
+2019-07-10 20:56:03.446  INFO 15684 --- [restartedMain] o.h.c.Environment                        : HHH000206: hibernate.properties not found
+2019-07-10 20:56:03.561  INFO 15684 --- [restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2019-07-10 20:56:03.667  INFO 15684 --- [restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2019-07-10 20:56:03.796  INFO 15684 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 20:56:03.966  INFO 15684 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:56:03.993  WARN 15684 --- [restartedMain] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-07-10 20:56:04.052  INFO 15684 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-07-10 20:56:04.130  INFO 15684 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-07-10 20:56:04.174  INFO 15684 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-07-10 20:56:04.177  INFO 15684 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 2.698 seconds (JVM running for 3.482)
+2019-07-10 20:56:04.179  INFO 15684 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-07-10 20:56:04.180 DEBUG 15684 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : User
+2019-07-10 20:56:04.180 DEBUG 15684 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : User Na2
+2019-07-10 20:56:04.180 DEBUG 15684 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 75
+2019-07-10 20:56:04.180  INFO 15684 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-07-10 20:56:04.180 DEBUG 15684 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-07-10 20:57:44.970  INFO 15684 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-07-10 20:57:44.974  INFO 15684 --- [RMI TCP Connection(10)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-07-10 20:57:44.975  INFO 15684 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2019-07-10 20:57:44.978  INFO 15684 --- [RMI TCP Connection(10)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2019-07-10 20:57:44.983  INFO 15684 --- [RMI TCP Connection(10)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
