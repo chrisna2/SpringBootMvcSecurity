@@ -15,13 +15,13 @@ public class PropertyRunner implements ApplicationRunner {
 	Logger log = LoggerFactory.getLogger(PropertyRunner.class);
 	
 	//@Value : properties 파일 에서 설정한 정의 값읋 바로 가져다 사용이 가능하다.
-	@Value("${hyunkee.name}")
+	@Value("${user.name}")
 	private String name;
 	
-	@Value("${hyunkee.fullname}")
+	@Value("${user.fullname}")
 	private String fullname;
 	
-	@Value("${hyunkee.age}")
+	@Value("${user.age}")
 	private int age;
 	/**
 	 * in springframework>
