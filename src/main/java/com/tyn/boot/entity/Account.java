@@ -18,6 +18,15 @@ public class Account {
 	@Column
 	private String password;
 
+	@Column
+	private String email;
+	
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
 	public Long getId() {
 		return id;
 	}

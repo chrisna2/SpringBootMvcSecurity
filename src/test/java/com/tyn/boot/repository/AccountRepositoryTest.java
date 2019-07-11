@@ -4,6 +4,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 import java.sql.Connection;
 import java.sql.SQLException;
+import java.util.Optional;
 
 import javax.sql.DataSource;
 
@@ -49,8 +50,8 @@ public class AccountRepositoryTest {
 		
 		Account account = new Account();
 		
-		account.setUsername("hyunkee");
-		account.setPassword("1111");
+		account.setUsername("Spring");
+		account.setPassword("2222");
 		
 		//등록! create : DB날리고 다시 입력하니 괜춘 | update : 있는 데이터를 또 입력하니 안괜춘... 듀플리케잇트
 		Account newAcc = accountRepository.save(account);
@@ -58,11 +59,23 @@ public class AccountRepositoryTest {
 		assertThat(newAcc).isNotNull();
 		
 		//조회!
-		Account existAcc = accountRepository.findByUsername(newAcc.getUsername());
-		assertThat(existAcc).isNotNull();
+		//Account existAcc = accountRepository.findByUsername(newAcc.getUsername());
+		//assertThat(existAcc).isNotNull();
 
 		//없는 것을 조회!
-		Account notExistAcc = accountRepository.findByUsername("test");
-		assertThat(notExistAcc).isNull();
+		//Account notExistAcc = accountRepository.findByUsername("test");
+		//assertThat(notExistAcc).isNull();
+
+		Optional<Account> optional = accountRepository.findByUsername(account.getUsername());
+		
+		if(optional.isPresent()) {
+			Account existAcount = optional.get();
+			System.out.println(existAcount);
+		}
+		/*
+		Optional<Account> optional2 = accountRepository.findByUsername("Spring");
+		Account notExistAccont = optional2.orElseThrow(() -> new Exception("존재하지 않습니다."));
+		assertThat(notExistAccont).isNotNull();
+		*/
 	}
 }
