@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
 
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 
@@ -19,9 +20,11 @@ public class User {
 	private Long id;
 	@Column
 	@JacksonXmlProperty
+	@NotBlank(message="name is mandatory")
 	private String name;
 	@Column
 	@JacksonXmlProperty
+	@NotBlank(message="email is mandatory")
 	private String email;
 	
 	public Long getId() {

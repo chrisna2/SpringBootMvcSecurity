@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>마이페이지</title>
+</head>
+<body>
+	<a href="/myPage">마이페이지(로그인창 띄우기)</a>
+	Login User : <b th:inline="text" class="user">[[${#httpServletRequest.remoteUser}]]</b>
+	<form th:action="@{/app-logout}" method="POST">
+		<input type="submit" value="Logout"/>
+	</form>
+</body>
+</html>

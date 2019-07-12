@@ -12,4 +12,12 @@ public class TemplateController {
 		model.addAttribute("name","hynukee");
 		return "leaf";
 	}
+	@GetMapping("/myPage")
+	public String myPage() {
+		return "myPage";
+	}
+	@GetMapping("/helloPage")
+	public String helloPage(Model model) {
+		return "helloPage";
+	}
 }
