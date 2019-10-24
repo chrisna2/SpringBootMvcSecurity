@@ -1,1177 +1,170 @@
-2019-07-09 21:33:55.474  INFO 3224 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 3224 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:33:55.477  INFO 3224 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:33:55.510  INFO 3224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2019-07-09 21:33:55.510  INFO 3224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2019-07-09 21:33:56.290  INFO 3224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:33:56.306  INFO 3224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:33:56.307  INFO 3224 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:33:56.369  INFO 3224 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:33:56.370  INFO 3224 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 859 ms
-2019-07-09 21:33:56.576  INFO 3224 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:33:56.642  INFO 3224 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:33:56.699  INFO 3224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:33:56.745  INFO 3224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:33:56.749  INFO 3224 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 1.566 seconds (JVM running for 2.159)
-2019-07-09 21:33:56.751  INFO 3224 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:34:30.422  INFO 3224 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:34:30.647  INFO 3224 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 3224 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:34:30.647  INFO 3224 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: prod
-2019-07-09 21:34:30.920  INFO 3224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:34:30.921  INFO 3224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:34:30.922  INFO 3224 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:34:30.933  INFO 3224 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:34:30.933  INFO 3224 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 284 ms
-2019-07-09 21:34:30.973  INFO 3224 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:34:30.993  INFO 3224 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:34:31.017  INFO 3224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:34:31.032  INFO 3224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:34:31.033  INFO 3224 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.409 seconds (JVM running for 36.443)
-2019-07-09 21:34:31.035  INFO 3224 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:34:31.037  INFO 3224 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:34:32.449  INFO 3224 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:34:32.720  INFO 3224 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 3224 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:34:32.721  INFO 3224 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: prod
-2019-07-09 21:34:32.911  INFO 3224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:34:32.912  INFO 3224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:34:32.913  INFO 3224 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:34:32.923  INFO 3224 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:34:32.923  INFO 3224 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 201 ms
-2019-07-09 21:34:32.963  INFO 3224 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:34:32.980  INFO 3224 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:34:33.001  INFO 3224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:34:33.016  INFO 3224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:34:33.016  INFO 3224 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.315 seconds (JVM running for 38.427)
-2019-07-09 21:34:33.018  INFO 3224 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:34:33.021  INFO 3224 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:34:45.517  INFO 3224 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:34:45.788  INFO 3224 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 3224 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:34:45.788  INFO 3224 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:34:45.970  INFO 3224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:34:45.971  INFO 3224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:34:45.971  INFO 3224 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:34:45.980  INFO 3224 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:34:45.980  INFO 3224 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 191 ms
-2019-07-09 21:34:46.015  INFO 3224 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:34:46.027  INFO 3224 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:34:46.041  INFO 3224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:34:46.050  INFO 3224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:34:46.050  INFO 3224 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.281 seconds (JVM running for 51.461)
-2019-07-09 21:34:46.055  INFO 3224 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:34:46.056  INFO 3224 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:34:57.656  INFO 3224 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2019-07-09 21:34:57.660  INFO 3224 --- [RMI TCP Connection(11)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:35:01.220  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:35:01.222  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:35:01.250  INFO 8216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2019-07-09 21:35:01.250  INFO 8216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2019-07-09 21:35:02.020  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:35:02.038  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:35:02.038  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:35:02.106  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:35:02.107  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 857 ms
-2019-07-09 21:35:02.288  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:35:02.351  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:35:02.408  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:35:02.454  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:35:02.457  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 1.521 seconds (JVM running for 2.105)
-2019-07-09 21:35:02.458  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:35:40.122  INFO 8216 --- [Thread-7] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:35:40.337  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:35:40.337  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:35:40.614  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:35:40.615  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:35:40.615  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:35:40.625  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:35:40.625  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 286 ms
-2019-07-09 21:35:40.664  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:35:40.685  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:35:40.706  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:35:40.721  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:35:40.722  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.405 seconds (JVM running for 40.37)
-2019-07-09 21:35:40.724  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:35:40.727  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:35:54.220  INFO 8216 --- [Thread-15] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:35:54.481  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:35:54.481  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:35:54.687  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:35:54.687  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:35:54.688  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:35:54.697  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:35:54.697  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 215 ms
-2019-07-09 21:35:54.736  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:35:54.753  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:35:54.775  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:35:54.788  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:35:54.789  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.33 seconds (JVM running for 54.437)
-2019-07-09 21:35:54.792  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:35:54.795  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:36:01.273  INFO 8216 --- [Thread-23] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:36:01.626  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:36:01.626 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:36:01.626  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:36:01.983  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:36:01.984  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:36:01.984  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:36:01.997  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:36:01.997  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 368 ms
-2019-07-09 21:36:02.058  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:36:02.092  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:36:02.114  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:36:02.124  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:36:02.125  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.545 seconds (JVM running for 61.773)
-2019-07-09 21:36:02.127 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:36:02.127 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:36:02.127 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:36:02.131 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 36
-2019-07-09 21:36:02.131  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:36:02.131 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:36:02.132  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:36:27.829  INFO 8216 --- [Thread-31] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:36:28.067  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:36:28.067  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: prod
-2019-07-09 21:36:28.254  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:36:28.255  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:36:28.255  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:36:28.269  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:36:28.269  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 201 ms
-2019-07-09 21:36:28.304  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:36:28.318  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:36:28.334  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:36:28.346  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:36:28.346  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.297 seconds (JVM running for 87.994)
-2019-07-09 21:36:28.347  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:36:28.351  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:36:44.861  INFO 8216 --- [Thread-39] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:36:45.093  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:36:45.093  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: prod
-2019-07-09 21:36:45.285  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:36:45.286  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:36:45.286  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:36:45.301  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:36:45.301  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 206 ms
-2019-07-09 21:36:45.336  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:36:45.346  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:36:45.358  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:36:45.366  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:36:45.367  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.293 seconds (JVM running for 105.015)
-2019-07-09 21:36:45.368  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:36:45.369  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:36:46.791  INFO 8216 --- [Thread-47] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:36:47.030  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:36:47.030  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: prod
-2019-07-09 21:36:47.196  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:36:47.197  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:36:47.197  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:36:47.206  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:36:47.206  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 174 ms
-2019-07-09 21:36:47.238  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:36:47.249  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:36:47.265  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:36:47.278  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:36:47.279  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.269 seconds (JVM running for 106.927)
-2019-07-09 21:36:47.281  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:36:47.284  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:37:26.999  INFO 8216 --- [Thread-55] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:37:27.218  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:37:27.218 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:37:27.218  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:37:27.442  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:37:27.443  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:37:27.443  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:37:27.453  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:37:27.453  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 234 ms
-2019-07-09 21:37:27.483  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:37:27.494  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:37:27.510  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:37:27.521  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:37:27.522  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.324 seconds (JVM running for 147.17)
-2019-07-09 21:37:27.524 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:37:27.524 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:37:27.524 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:37:27.526 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 90
-2019-07-09 21:37:27.526  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:37:27.527 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:37:27.529  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:37:38.011  INFO 8216 --- [Thread-63] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:37:38.231  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:37:38.231 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:37:38.231  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:37:38.404  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:37:38.404  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:37:38.404  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:37:38.414  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:37:38.414  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 181 ms
-2019-07-09 21:37:38.447  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:37:38.459  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:37:38.475  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:37:38.487  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:37:38.488  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.275 seconds (JVM running for 158.136)
-2019-07-09 21:37:38.493 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:37:38.493 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:37:38.493 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:37:38.494 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 17
-2019-07-09 21:37:38.495  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:37:38.495 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:37:38.495  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:37:41.916  INFO 8216 --- [Thread-71] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:37:42.113  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:37:42.113 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:37:42.113  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:37:42.286  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:37:42.287  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:37:42.287  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:37:42.299  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:37:42.299  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 185 ms
-2019-07-09 21:37:42.332  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:37:42.346  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:37:42.363  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:37:42.377  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:37:42.378  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.282 seconds (JVM running for 162.025)
-2019-07-09 21:37:42.381  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:37:42.382 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:37:42.382 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:37:42.384 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 13
-2019-07-09 21:37:42.384  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:37:42.384 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:37:42.385  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:38:24.189  INFO 8216 --- [Thread-79] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:38:24.381  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:38:24.381 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:38:24.381  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:38:24.584  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:38:24.586  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:38:24.586  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:38:24.596  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:38:24.596  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 213 ms
-2019-07-09 21:38:24.628  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:38:24.640  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:38:24.657  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:38:24.670  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:38:24.671  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.308 seconds (JVM running for 204.319)
-2019-07-09 21:38:24.672  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:38:24.672 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:38:24.672 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:38:24.674 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 76
-2019-07-09 21:38:24.674  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:38:24.674 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:38:24.676  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:38:27.090  INFO 8216 --- [Thread-87] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:38:27.285  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:38:27.285 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:38:27.285  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:38:27.470  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:38:27.471  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:38:27.471  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:38:27.482  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:38:27.482  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 194 ms
-2019-07-09 21:38:27.547  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:38:27.562  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:38:27.575  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:38:27.588  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:38:27.589  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.324 seconds (JVM running for 207.237)
-2019-07-09 21:38:27.591  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:38:27.591 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:38:27.591 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:38:27.593 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 74
-2019-07-09 21:38:27.593  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:38:27.594 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:38:27.594  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:39:14.785  INFO 8216 --- [Thread-95] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:39:15.025  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:39:15.025 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:39:15.025  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:39:15.200  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:39:15.201  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:39:15.201  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:39:15.210  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:39:15.210  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 183 ms
-2019-07-09 21:39:15.242  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:39:15.253  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:39:15.268  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:39:15.278  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:39:15.279  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.273 seconds (JVM running for 254.927)
-2019-07-09 21:39:15.282  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:39:15.284 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:39:15.284 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:39:15.286 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 47
-2019-07-09 21:39:15.287  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:39:15.287 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:39:15.289  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:39:20.715  INFO 8216 --- [Thread-103] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:39:20.919  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:39:20.919 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:39:20.919  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:39:21.106  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:39:21.107  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:39:21.108  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:39:21.155  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:39:21.156  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 234 ms
-2019-07-09 21:39:21.190  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:39:21.200  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:39:21.213  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:39:21.223  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:39:21.224  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.328 seconds (JVM running for 260.872)
-2019-07-09 21:39:21.226  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:39:21.226 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:39:21.227 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:39:21.228 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 48
-2019-07-09 21:39:21.228  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:39:21.229 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:39:21.230  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:39:28.703  INFO 8216 --- [Thread-111] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:39:28.888  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:39:28.888 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:39:28.888  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:39:29.034  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:39:29.035  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:39:29.035  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:39:29.046  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:39:29.046  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 156 ms
-2019-07-09 21:39:29.088  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:39:29.102  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:39:29.118  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:39:29.127  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:39:29.129  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.261 seconds (JVM running for 268.777)
-2019-07-09 21:39:29.132  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:39:29.132 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:39:29.132 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:39:29.133 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 31
-2019-07-09 21:39:29.133  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:39:29.133 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:39:29.134  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:41:02.368  INFO 8216 --- [Thread-119] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:41:02.623  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:41:02.623 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:41:02.624  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:41:02.803  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:41:02.806  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:41:02.806  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:41:02.818  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:41:02.818  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 193 ms
-2019-07-09 21:41:02.867  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:41:02.886  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:41:02.905  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:41:02.918  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:41:02.920  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.318 seconds (JVM running for 362.567)
-2019-07-09 21:41:02.921  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:41:02.922 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:41:02.922 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:41:02.923 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 26
-2019-07-09 21:41:02.924  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:41:02.924 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:41:02.925  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:41:53.887  INFO 8216 --- [Thread-127] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:41:54.388  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:41:54.388 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:41:54.388  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:41:54.839  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:41:54.840  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:41:54.840  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:41:54.852  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:41:54.852  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 461 ms
-2019-07-09 21:41:54.946  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:41:54.990  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:41:55.026  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:41:55.040  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:41:55.042  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.705 seconds (JVM running for 414.69)
-2019-07-09 21:41:55.048  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:41:55.048 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:41:55.048 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:41:55.050 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 50
-2019-07-09 21:41:55.050  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:41:55.050 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:41:55.051  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:41:56.447  INFO 8216 --- [Thread-135] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:41:56.652  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:41:56.652 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:41:56.652  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:41:56.819  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:41:56.820  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:41:56.820  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:41:56.859  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:41:56.859  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 206 ms
-2019-07-09 21:41:56.898  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:41:56.911  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:41:56.927  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:41:56.935  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:41:56.936  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.308 seconds (JVM running for 416.584)
-2019-07-09 21:41:56.937  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:41:56.937 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:41:56.937 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:41:56.939 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 95
-2019-07-09 21:41:56.939  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:41:56.939 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:41:56.940  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:42:52.881  INFO 8216 --- [Thread-143] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:42:56.567  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:42:56.567 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:42:56.567  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:42:56.720  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:42:56.721  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:42:56.721  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:42:56.733  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:42:56.733  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 165 ms
-2019-07-09 21:42:56.746  WARN 8216 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'propertyRunner' defined in file [C:\spring_boot\workspace\tyn-pa01-start\target\classes\com\tyn\boot\runner\PropertyRunner.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.tyn.boot.runner.PropertyRunner]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	The import org.slf4j cannot be resolved
-	The import org.slf4j cannot be resolved
-	Logger cannot be resolved to a type
-	LoggerFactory cannot be resolved
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-
-2019-07-09 21:42:56.746  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2019-07-09 21:42:56.750  INFO 8216 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2019-07-09 21:42:56.754 ERROR 8216 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'propertyRunner' defined in file [C:\spring_boot\workspace\tyn-pa01-start\target\classes\com\tyn\boot\runner\PropertyRunner.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.tyn.boot.runner.PropertyRunner]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	The import org.slf4j cannot be resolved
-	The import org.slf4j cannot be resolved
-	Logger cannot be resolved to a type
-	LoggerFactory cannot be resolved
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1303) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at com.tyn.boot.TynPa01StartApplication.main(TynPa01StartApplication.java:51) [classes/:na]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_202]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_202]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_202]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_202]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.tyn.boot.runner.PropertyRunner]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	The import org.slf4j cannot be resolved
-	The import org.slf4j cannot be resolved
-	Logger cannot be resolved to a type
-	LoggerFactory cannot be resolved
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:184) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1295) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	... 20 common frames omitted
-Caused by: java.lang.Error: Unresolved compilation problems: 
-	The import org.slf4j cannot be resolved
-	The import org.slf4j cannot be resolved
-	Logger cannot be resolved to a type
-	LoggerFactory cannot be resolved
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-
-	at com.tyn.boot.runner.PropertyRunner.<init>(PropertyRunner.java:3) ~[classes/:na]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_202]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_202]
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_202]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_202]
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	... 22 common frames omitted
-
-2019-07-09 21:43:00.224  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:43:00.224 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:43:00.224  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:43:00.377  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:43:00.378  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:43:00.378  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:43:00.389  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-2].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:43:00.389  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 163 ms
-2019-07-09 21:43:00.402  WARN 8216 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'propertyRunner' defined in file [C:\spring_boot\workspace\tyn-pa01-start\target\classes\com\tyn\boot\runner\PropertyRunner.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.tyn.boot.runner.PropertyRunner]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	The import org.slf4j cannot be resolved
-	The import org.slf4j cannot be resolved
-	Logger cannot be resolved to a type
-	LoggerFactory cannot be resolved
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-
-2019-07-09 21:43:00.403  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2019-07-09 21:43:00.407  INFO 8216 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2019-07-09 21:43:00.408 ERROR 8216 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'propertyRunner' defined in file [C:\spring_boot\workspace\tyn-pa01-start\target\classes\com\tyn\boot\runner\PropertyRunner.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.tyn.boot.runner.PropertyRunner]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	The import org.slf4j cannot be resolved
-	The import org.slf4j cannot be resolved
-	Logger cannot be resolved to a type
-	LoggerFactory cannot be resolved
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1303) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at com.tyn.boot.TynPa01StartApplication.main(TynPa01StartApplication.java:51) [classes/:na]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_202]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_202]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_202]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_202]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.tyn.boot.runner.PropertyRunner]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	The import org.slf4j cannot be resolved
-	The import org.slf4j cannot be resolved
-	Logger cannot be resolved to a type
-	LoggerFactory cannot be resolved
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:184) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1295) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	... 20 common frames omitted
-Caused by: java.lang.Error: Unresolved compilation problems: 
-	The import org.slf4j cannot be resolved
-	The import org.slf4j cannot be resolved
-	Logger cannot be resolved to a type
-	LoggerFactory cannot be resolved
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-
-	at com.tyn.boot.runner.PropertyRunner.<init>(PropertyRunner.java:3) ~[classes/:na]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_202]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_202]
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_202]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_202]
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	... 22 common frames omitted
-
-2019-07-09 21:44:36.775  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:44:36.775 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:44:36.775  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:44:36.963  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:44:36.963  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:44:36.964  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:44:36.972  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-3].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:44:36.972  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 195 ms
-2019-07-09 21:44:36.982  WARN 8216 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'propertyRunner' defined in file [C:\spring_boot\workspace\tyn-pa01-start\target\classes\com\tyn\boot\runner\PropertyRunner.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.tyn.boot.runner.PropertyRunner]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	The import org.slf4j cannot be resolved
-	The import org.slf4j cannot be resolved
-	Logger cannot be resolved to a type
-	LoggerFactory cannot be resolved
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-
-2019-07-09 21:44:36.982  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2019-07-09 21:44:36.985  INFO 8216 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2019-07-09 21:44:36.986 ERROR 8216 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'propertyRunner' defined in file [C:\spring_boot\workspace\tyn-pa01-start\target\classes\com\tyn\boot\runner\PropertyRunner.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.tyn.boot.runner.PropertyRunner]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	The import org.slf4j cannot be resolved
-	The import org.slf4j cannot be resolved
-	Logger cannot be resolved to a type
-	LoggerFactory cannot be resolved
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1303) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at com.tyn.boot.TynPa01StartApplication.main(TynPa01StartApplication.java:51) [classes/:na]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_202]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_202]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_202]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_202]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.tyn.boot.runner.PropertyRunner]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	The import org.slf4j cannot be resolved
-	The import org.slf4j cannot be resolved
-	Logger cannot be resolved to a type
-	LoggerFactory cannot be resolved
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:184) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1295) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	... 20 common frames omitted
-Caused by: java.lang.Error: Unresolved compilation problems: 
-	The import org.slf4j cannot be resolved
-	The import org.slf4j cannot be resolved
-	Logger cannot be resolved to a type
-	LoggerFactory cannot be resolved
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-	Logger cannot be resolved to a type
-
-	at com.tyn.boot.runner.PropertyRunner.<init>(PropertyRunner.java:3) ~[classes/:na]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_202]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_202]
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_202]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_202]
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	... 22 common frames omitted
-
-2019-07-09 21:44:50.944  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:44:50.944 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:44:50.944  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:44:51.271  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:44:51.272  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:44:51.272  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:44:51.285  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:44:51.285  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 339 ms
-2019-07-09 21:44:51.341  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:44:51.358  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:44:51.372  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:44:51.386  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:44:51.387  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.48 seconds (JVM running for 591.035)
-2019-07-09 21:44:51.389  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:44:51.389 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:44:51.389 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:44:51.392 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 78
-2019-07-09 21:44:51.393  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:44:51.393 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:44:51.394  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:44:56.996  INFO 8216 --- [Thread-151] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:44:57.274  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:44:57.274 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:44:57.274  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:44:57.418  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:44:57.419  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:44:57.419  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:44:57.428  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:44:57.428  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 153 ms
-2019-07-09 21:44:57.468  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:44:57.484  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:44:57.500  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:44:57.511  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:44:57.511  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.253 seconds (JVM running for 597.159)
-2019-07-09 21:44:57.517  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:44:57.517 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:44:57.517 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:44:57.518 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 79
-2019-07-09 21:44:57.518  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:44:57.518 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:44:57.519  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:45:12.091  INFO 8216 --- [Thread-174] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:45:12.295  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:45:12.295 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:45:12.295  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:45:12.466  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:45:12.467  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:45:12.467  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:45:12.477  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:45:12.477  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 180 ms
-2019-07-09 21:45:12.513  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:45:12.522  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:45:12.533  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:45:12.542  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:45:12.543  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.265 seconds (JVM running for 612.191)
-2019-07-09 21:45:12.546  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:45:12.546 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:45:12.546 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:45:12.547 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 96
-2019-07-09 21:45:12.548  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:45:12.548 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:45:12.548  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:45:24.066  INFO 8216 --- [Thread-182] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:45:24.258  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:45:24.258 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:45:24.258  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:45:24.471  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:45:24.472  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:45:24.472  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:45:24.483  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:45:24.483  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 224 ms
-2019-07-09 21:45:24.527  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:45:24.543  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:45:24.557  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:45:24.568  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:45:24.572  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.33 seconds (JVM running for 624.22)
-2019-07-09 21:45:24.574  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:45:24.574 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:45:24.574 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:45:24.575 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 2
-2019-07-09 21:45:24.575  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:45:24.575 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:45:24.577  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:45:45.139  INFO 8216 --- [Thread-190] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:45:45.344  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:45:45.344 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:45:45.344  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:45:45.515  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:45:45.516  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:45:45.516  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:45:45.557  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:45:45.558  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 213 ms
-2019-07-09 21:45:45.597  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:45:45.613  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:45:45.629  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:45:45.642  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:45:45.643  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.317 seconds (JVM running for 645.29)
-2019-07-09 21:45:45.646  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:45:45.646 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:45:45.646 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:45:45.647 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 58
-2019-07-09 21:45:45.648  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:45:45.648 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:45:45.648  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:46:05.338  INFO 8216 --- [Thread-198] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:46:05.572  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:46:05.572 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:46:05.572  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:46:05.771  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:46:05.772  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:46:05.772  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:46:05.782  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:46:05.782  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 209 ms
-2019-07-09 21:46:05.824  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:46:05.837  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:46:05.854  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:46:05.867  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:46:05.868  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.32 seconds (JVM running for 665.516)
-2019-07-09 21:46:05.871  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:46:05.871 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:46:05.871 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:46:05.872 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 1
-2019-07-09 21:46:05.872  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:46:05.872 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:46:05.873  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:46:23.438  INFO 8216 --- [Thread-206] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:46:23.647  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:46:23.647 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:46:23.647  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:46:23.795  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:46:23.795  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:46:23.796  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:46:23.829  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-5].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:46:23.830  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 182 ms
-2019-07-09 21:46:23.838  WARN 8216 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tynController' defined in file [C:\spring_boot\workspace\tyn-pa01-start\target\classes\com\tyn\boot\controller\TynController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.tyn.boot.controller.TynController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	Syntax error, insert "enum Identifier" to complete EnumHeader
-	Syntax error, insert "EnumBody" to complete ClassBodyDeclarations
-
-2019-07-09 21:46:23.838  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
-2019-07-09 21:46:23.841  INFO 8216 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
-
-Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
-2019-07-09 21:46:23.843 ERROR 8216 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'tynController' defined in file [C:\spring_boot\workspace\tyn-pa01-start\target\classes\com\tyn\boot\controller\TynController.class]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.tyn.boot.controller.TynController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	Syntax error, insert "enum Identifier" to complete EnumHeader
-	Syntax error, insert "EnumBody" to complete ClassBodyDeclarations
-
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1303) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1197) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:742) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:389) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:311) ~[spring-boot-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-	at com.tyn.boot.TynPa01StartApplication.main(TynPa01StartApplication.java:51) [classes/:na]
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_202]
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_202]
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_202]
-	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_202]
-	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-2.1.6.RELEASE.jar:2.1.6.RELEASE]
-Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [com.tyn.boot.controller.TynController]: Constructor threw exception; nested exception is java.lang.Error: Unresolved compilation problems: 
-	Syntax error, insert "enum Identifier" to complete EnumHeader
-	Syntax error, insert "EnumBody" to complete ClassBodyDeclarations
-
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:184) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1295) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	... 20 common frames omitted
-Caused by: java.lang.Error: Unresolved compilation problems: 
-	Syntax error, insert "enum Identifier" to complete EnumHeader
-	Syntax error, insert "EnumBody" to complete ClassBodyDeclarations
-
-	at com.tyn.boot.controller.TynController.<init>(TynController.java:9) ~[classes/:na]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[na:1.8.0_202]
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[na:1.8.0_202]
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[na:1.8.0_202]
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[na:1.8.0_202]
-	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172) ~[spring-beans-5.1.6.RELEASE.jar:5.1.6.RELEASE]
-	... 22 common frames omitted
-
-2019-07-09 21:46:26.311  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:46:26.311 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:46:26.311  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:46:26.487  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:46:26.487  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:46:26.488  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:46:26.499  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:46:26.499  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 187 ms
-2019-07-09 21:46:26.550  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:46:26.569  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:46:26.589  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:46:26.604  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:46:26.604  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.322 seconds (JVM running for 686.252)
-2019-07-09 21:46:26.606  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:46:26.606 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:46:26.607 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:46:26.610 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 30
-2019-07-09 21:46:26.610  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:46:26.610 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:46:26.611  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:46:35.074  INFO 8216 --- [Thread-214] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:46:35.293  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:46:35.294 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:46:35.294  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:46:35.494  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:46:35.495  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:46:35.495  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:46:35.504  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:46:35.504  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 209 ms
-2019-07-09 21:46:35.536  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:46:35.547  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:46:35.561  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:46:35.574  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:46:35.575  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.3 seconds (JVM running for 695.223)
-2019-07-09 21:46:35.578  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:46:35.578 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:46:35.578 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:46:35.580 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 80
-2019-07-09 21:46:35.580  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:46:35.580 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:46:35.581  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:46:53.198  INFO 8216 --- [Thread-225] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:46:53.406  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:46:53.407 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:46:53.407  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:46:53.584  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:46:53.585  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:46:53.585  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:46:53.597  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:46:53.597  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 188 ms
-2019-07-09 21:46:53.647  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:46:53.663  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:46:53.681  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:46:53.696  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:46:53.697  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.307 seconds (JVM running for 713.344)
-2019-07-09 21:46:53.703  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:46:53.703 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:46:53.703 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:46:53.706 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 74
-2019-07-09 21:46:53.706  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:46:53.706 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:46:53.708  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:47:02.608  INFO 8216 --- [Thread-233] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:47:02.833  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:47:02.833 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:47:02.833  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:47:02.985  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:47:02.986  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:47:02.986  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:47:02.997  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:47:02.997  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 162 ms
-2019-07-09 21:47:03.040  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:47:03.055  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:47:03.072  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:47:03.084  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:47:03.084  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.274 seconds (JVM running for 722.732)
-2019-07-09 21:47:03.087  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:47:03.087 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:47:03.087 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:47:03.088 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 7
-2019-07-09 21:47:03.088  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:47:03.088 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:47:03.089  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:47:31.811  INFO 8216 --- [Thread-241] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:47:32.017  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:47:32.017 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:47:32.017  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:47:32.196  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:47:32.197  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:47:32.197  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:47:32.209  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:47:32.209  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 191 ms
-2019-07-09 21:47:32.239  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:47:32.250  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:47:32.266  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:47:32.279  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:47:32.280  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.278 seconds (JVM running for 751.928)
-2019-07-09 21:47:32.281  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:47:32.281 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:47:32.281 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:47:32.283 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 92
-2019-07-09 21:47:32.283  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:47:32.283 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:47:32.284  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:48:10.495  INFO 8216 --- [Thread-249] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:48:10.698  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:48:10.698 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:48:10.698  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:48:10.866  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:48:10.866  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:48:10.867  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:48:10.882  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:48:10.882  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 183 ms
-2019-07-09 21:48:10.921  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:48:10.938  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:48:10.958  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:48:10.970  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:48:10.970  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.287 seconds (JVM running for 790.619)
-2019-07-09 21:48:10.972  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:48:10.972 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:48:10.972 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:48:10.974 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 50
-2019-07-09 21:48:10.974  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:48:10.974 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:48:10.978  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:48:29.601  INFO 8216 --- [Thread-257] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:48:29.822  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:48:29.823 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:48:29.823  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:48:29.969  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:48:29.970  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:48:29.970  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:48:29.981  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:48:29.981  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 157 ms
-2019-07-09 21:48:30.028  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:48:30.051  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:48:30.066  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:48:30.078  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:48:30.079  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.272 seconds (JVM running for 809.727)
-2019-07-09 21:48:30.080  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:48:30.080 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:48:30.080 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:48:30.082 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 19
-2019-07-09 21:48:30.082  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:48:30.082 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:48:30.085  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:48:42.664  INFO 8216 --- [Thread-265] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:48:42.886  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:48:42.886 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:48:42.886  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:48:43.087  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:48:43.088  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:48:43.088  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:48:43.098  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:48:43.098  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 211 ms
-2019-07-09 21:48:43.139  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:48:43.155  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:48:43.170  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:48:43.179  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:48:43.179  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.31 seconds (JVM running for 822.827)
-2019-07-09 21:48:43.182  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:48:43.183 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:48:43.183 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:48:43.184 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 53
-2019-07-09 21:48:43.184  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:48:43.184 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:48:43.185  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:48:49.649  INFO 8216 --- [Thread-273] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:48:49.863  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:48:49.863 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:48:49.863  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:48:50.077  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:48:50.077  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:48:50.077  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:48:50.094  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:48:50.094  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 229 ms
-2019-07-09 21:48:50.128  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:48:50.145  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:48:50.164  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:48:50.175  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:48:50.176  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.339 seconds (JVM running for 829.824)
-2019-07-09 21:48:50.178  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:48:50.178 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:48:50.178 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:48:50.181 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 48
-2019-07-09 21:48:50.181  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:48:50.181 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:48:50.182  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:49:09.764  INFO 8216 --- [Thread-281] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:49:09.978  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:49:09.979 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:49:09.979  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:49:10.135  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:49:10.136  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:49:10.136  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:49:10.147  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:49:10.147  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 167 ms
-2019-07-09 21:49:10.187  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:49:10.201  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:49:10.216  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:49:10.228  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:49:10.229  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.271 seconds (JVM running for 849.877)
-2019-07-09 21:49:10.232  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:49:10.232 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:49:10.232 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:49:10.233 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 12
-2019-07-09 21:49:10.233  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:49:10.233 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:49:10.234  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:49:24.828  INFO 8216 --- [Thread-289] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:49:25.030  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:49:25.031 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:49:25.031  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:49:25.182  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:49:25.182  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:49:25.182  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:49:25.229  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:49:25.229  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 197 ms
-2019-07-09 21:49:25.268  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:49:25.281  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:49:25.296  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:49:25.307  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:49:25.308  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.293 seconds (JVM running for 864.956)
-2019-07-09 21:49:25.311  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:49:25.311 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:49:25.311 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:49:25.312 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 8
-2019-07-09 21:49:25.312  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:49:25.312 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:49:25.312  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:49:46.005  INFO 8216 --- [Thread-297] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:49:46.200  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:49:46.200 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:49:46.200  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:49:46.390  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:49:46.391  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:49:46.391  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:49:46.426  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:49:46.426  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 224 ms
-2019-07-09 21:49:46.476  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:49:46.497  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:49:46.510  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:49:46.518  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:49:46.519  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.335 seconds (JVM running for 886.167)
-2019-07-09 21:49:46.520  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:49:46.520 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:49:46.520 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:49:46.521 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 50
-2019-07-09 21:49:46.521  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:49:46.521 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:49:46.522  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:49:47.947  INFO 8216 --- [Thread-305] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:49:48.149  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:49:48.149 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:49:48.149  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:49:48.332  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:49:48.333  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:49:48.333  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:49:48.344  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:49:48.344  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 193 ms
-2019-07-09 21:49:48.379  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:49:48.388  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:49:48.401  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:49:48.409  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:49:48.409  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.28 seconds (JVM running for 888.058)
-2019-07-09 21:49:48.411  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:49:48.411 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:49:48.412 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:49:48.414 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 49
-2019-07-09 21:49:48.414  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:49:48.414 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:49:48.415  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:49:52.854  INFO 8216 --- [Thread-313] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:49:53.079  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Starting TynPa01StartApplication on LAPTOP-2O2HBB78 with PID 8216 (C:\spring_boot\workspace\tyn-pa01-start\target\classes started by User in C:\spring_boot\workspace\tyn-pa01-start)
-2019-07-09 21:49:53.079 DEBUG 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
-2019-07-09 21:49:53.079  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : The following profiles are active: test
-2019-07-09 21:49:53.272  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8888 (http)
-2019-07-09 21:49:53.273  INFO 8216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2019-07-09 21:49:53.273  INFO 8216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.21]
-2019-07-09 21:49:53.285  INFO 8216 --- [restartedMain] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
-2019-07-09 21:49:53.285  INFO 8216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 205 ms
-2019-07-09 21:49:53.327  INFO 8216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
-2019-07-09 21:49:53.341  INFO 8216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
-2019-07-09 21:49:53.356  INFO 8216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
-2019-07-09 21:49:53.367  INFO 8216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8888 (http) with context path ''
-2019-07-09 21:49:53.368  INFO 8216 --- [restartedMain] com.tyn.boot.TynPa01StartApplication     : Started TynPa01StartApplication in 0.311 seconds (JVM running for 893.015)
-2019-07-09 21:49:53.371  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : =============|PropertyRunner:2|=============
-2019-07-09 21:49:53.371 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 이름 : chris
-2019-07-09 21:49:53.371 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 성함 : chris Na2
-2019-07-09 21:49:53.372 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : 나이 : 84
-2019-07-09 21:49:53.373  INFO 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Info Log -> hello prod env
-2019-07-09 21:49:53.373 DEBUG 8216 --- [restartedMain] com.tyn.boot.runner.PropertyRunner       : This is Debug Log-> hello test env
-2019-07-09 21:49:53.374  INFO 8216 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
-2019-07-09 21:50:07.637  INFO 8216 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat-6].[localhost].[/]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2019-07-09 21:50:07.638  INFO 8216 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2019-07-09 21:50:07.645  INFO 8216 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
-2019-07-09 21:50:19.867  INFO 8216 --- [RMI TCP Connection(62)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2019-07-09 21:50:19.868  INFO 8216 --- [RMI TCP Connection(62)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:26:14.498  INFO 12660 --- [Thread-8] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:26:15.634  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on DESKTOP-LVR169M with PID 12660 (C:\Users\TY\git\SpringBootMvcSecurity\target\classes started by TY in C:\Users\TY\git\SpringBootMvcSecurity)
+2019-10-24 09:26:15.635 DEBUG 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-10-24 09:26:15.635  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-10-24 09:26:16.629  INFO 12660 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-10-24 09:26:16.631  INFO 12660 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-10-24 09:26:16.631  INFO 12660 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-24 09:26:16.695  INFO 12660 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-10-24 09:26:16.696  INFO 12660 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1054 ms
+2019-10-24 09:26:16.806  INFO 12660 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:26:16.843  INFO 12660 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-10-24 09:26:16.931  INFO 12660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-24 09:26:16.961  INFO 12660 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-24 09:26:16.963  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 1.464 seconds (JVM running for 573.201)
+2019-10-24 09:26:16.966  INFO 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-10-24 09:26:16.968 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-10-24 09:26:16.969 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-10-24 09:26:16.969 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 95
+2019-10-24 09:26:16.970  INFO 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-10-24 09:26:16.970 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-10-24 09:26:16.975  INFO 12660 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-24 09:28:07.023  INFO 12660 --- [Thread-16] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:28:09.934  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on DESKTOP-LVR169M with PID 12660 (C:\Users\TY\git\SpringBootMvcSecurity\target\classes started by TY in C:\Users\TY\git\SpringBootMvcSecurity)
+2019-10-24 09:28:09.934 DEBUG 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-10-24 09:28:09.934  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-10-24 09:28:11.311  INFO 12660 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-10-24 09:28:11.316  INFO 12660 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-10-24 09:28:11.317  INFO 12660 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-24 09:28:11.495  INFO 12660 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-10-24 09:28:11.495  INFO 12660 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1555 ms
+2019-10-24 09:28:11.684  INFO 12660 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:28:11.755  INFO 12660 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-10-24 09:28:11.883  INFO 12660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-24 09:28:11.941  INFO 12660 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-24 09:28:11.944  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 2.258 seconds (JVM running for 688.182)
+2019-10-24 09:28:11.946  INFO 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-10-24 09:28:11.947 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-10-24 09:28:11.947 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-10-24 09:28:11.947 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 26
+2019-10-24 09:28:11.947  INFO 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-10-24 09:28:11.948 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-10-24 09:28:11.953  INFO 12660 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-24 09:28:16.668  INFO 12660 --- [Thread-24] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:28:46.810  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on DESKTOP-LVR169M with PID 12660 (C:\Users\TY\git\SpringBootMvcSecurity\target\classes started by TY in C:\Users\TY\git\SpringBootMvcSecurity)
+2019-10-24 09:28:46.810 DEBUG 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-10-24 09:28:46.811  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-10-24 09:28:47.767  INFO 12660 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-10-24 09:28:47.768  INFO 12660 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-10-24 09:28:47.768  INFO 12660 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-24 09:28:47.846  INFO 12660 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-10-24 09:28:47.846  INFO 12660 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1030 ms
+2019-10-24 09:28:47.966  INFO 12660 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:28:48.002  INFO 12660 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-10-24 09:28:48.088  INFO 12660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-24 09:28:48.119  INFO 12660 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-24 09:28:48.121  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 1.465 seconds (JVM running for 724.358)
+2019-10-24 09:28:48.141  INFO 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-10-24 09:28:48.144 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-10-24 09:28:48.144 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-10-24 09:28:48.145 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 29
+2019-10-24 09:28:48.145  INFO 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-10-24 09:28:48.146 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-10-24 09:28:48.149  INFO 12660 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-24 09:31:21.531  INFO 12660 --- [Thread-32] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:31:23.009  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on DESKTOP-LVR169M with PID 12660 (C:\Users\TY\git\SpringBootMvcSecurity\target\classes started by TY in C:\Users\TY\git\SpringBootMvcSecurity)
+2019-10-24 09:31:23.010 DEBUG 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-10-24 09:31:23.010  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-10-24 09:31:24.030  INFO 12660 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-10-24 09:31:24.032  INFO 12660 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-10-24 09:31:24.032  INFO 12660 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-24 09:31:24.092  INFO 12660 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-10-24 09:31:24.093  INFO 12660 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1077 ms
+2019-10-24 09:31:24.189  INFO 12660 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:31:24.233  INFO 12660 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-10-24 09:31:24.335  INFO 12660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-24 09:31:24.369  INFO 12660 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-24 09:31:24.377  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 1.564 seconds (JVM running for 880.615)
+2019-10-24 09:31:24.385  INFO 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-10-24 09:31:24.386 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-10-24 09:31:24.386 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-10-24 09:31:24.386 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 36
+2019-10-24 09:31:24.386  INFO 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-10-24 09:31:24.387 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-10-24 09:31:24.388  INFO 12660 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-24 09:31:50.667  INFO 12660 --- [Thread-43] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:31:51.921  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on DESKTOP-LVR169M with PID 12660 (C:\Users\TY\git\SpringBootMvcSecurity\target\classes started by TY in C:\Users\TY\git\SpringBootMvcSecurity)
+2019-10-24 09:31:51.921 DEBUG 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-10-24 09:31:51.922  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-10-24 09:31:52.816  INFO 12660 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-10-24 09:31:52.817  INFO 12660 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-10-24 09:31:52.818  INFO 12660 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-24 09:31:52.873  INFO 12660 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-10-24 09:31:52.874  INFO 12660 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 946 ms
+2019-10-24 09:31:52.965  INFO 12660 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:31:52.995  INFO 12660 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-10-24 09:31:53.077  INFO 12660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-24 09:31:53.107  INFO 12660 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-24 09:31:53.109  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 1.324 seconds (JVM running for 909.346)
+2019-10-24 09:31:53.114  INFO 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-10-24 09:31:53.114 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-10-24 09:31:53.115 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-10-24 09:31:53.118 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 28
+2019-10-24 09:31:53.119  INFO 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-10-24 09:31:53.119 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-10-24 09:31:53.121  INFO 12660 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-24 09:33:58.146  INFO 12660 --- [Thread-51] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:33:59.708  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on DESKTOP-LVR169M with PID 12660 (C:\Users\TY\git\SpringBootMvcSecurity\target\classes started by TY in C:\Users\TY\git\SpringBootMvcSecurity)
+2019-10-24 09:33:59.709 DEBUG 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-10-24 09:33:59.709  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-10-24 09:34:00.705  INFO 12660 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-10-24 09:34:00.706  INFO 12660 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-10-24 09:34:00.707  INFO 12660 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-24 09:34:00.774  INFO 12660 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-10-24 09:34:00.775  INFO 12660 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 1060 ms
+2019-10-24 09:34:00.858  INFO 12660 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:34:00.901  INFO 12660 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-10-24 09:34:00.978  INFO 12660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-24 09:34:01.004  INFO 12660 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-24 09:34:01.006  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 1.44 seconds (JVM running for 1037.243)
+2019-10-24 09:34:01.010  INFO 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-10-24 09:34:01.011 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-10-24 09:34:01.011 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-10-24 09:34:01.012 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 3
+2019-10-24 09:34:01.012  INFO 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-10-24 09:34:01.012 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-10-24 09:34:01.015  INFO 12660 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-24 09:34:21.746  INFO 12660 --- [Thread-59] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:34:22.984  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on DESKTOP-LVR169M with PID 12660 (C:\Users\TY\git\SpringBootMvcSecurity\target\classes started by TY in C:\Users\TY\git\SpringBootMvcSecurity)
+2019-10-24 09:34:22.984 DEBUG 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-10-24 09:34:22.984  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-10-24 09:34:23.830  INFO 12660 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-10-24 09:34:23.832  INFO 12660 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-10-24 09:34:23.832  INFO 12660 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-24 09:34:23.907  INFO 12660 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-10-24 09:34:23.907  INFO 12660 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 917 ms
+2019-10-24 09:34:24.006  INFO 12660 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:34:24.043  INFO 12660 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-10-24 09:34:24.117  INFO 12660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-24 09:34:24.143  INFO 12660 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-24 09:34:24.145  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 1.289 seconds (JVM running for 1060.383)
+2019-10-24 09:34:24.152  INFO 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-10-24 09:34:24.153 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-10-24 09:34:24.153 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-10-24 09:34:24.153 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 60
+2019-10-24 09:34:24.153  INFO 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-10-24 09:34:24.153 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-10-24 09:34:24.156  INFO 12660 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-24 09:36:44.100  INFO 12660 --- [Thread-67] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:36:45.357  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Starting TynPa01StartApplication on DESKTOP-LVR169M with PID 12660 (C:\Users\TY\git\SpringBootMvcSecurity\target\classes started by TY in C:\Users\TY\git\SpringBootMvcSecurity)
+2019-10-24 09:36:45.357 DEBUG 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Running with Spring Boot v2.1.6.RELEASE, Spring v5.1.6.RELEASE
+2019-10-24 09:36:45.357  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : The following profiles are active: test
+2019-10-24 09:36:46.254  INFO 12660 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8888 (http)
+2019-10-24 09:36:46.256  INFO 12660 --- [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2019-10-24 09:36:46.256  INFO 12660 --- [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.21]
+2019-10-24 09:36:46.321  INFO 12660 --- [restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2019-10-24 09:36:46.322  INFO 12660 --- [restartedMain] o.s.w.c.ContextLoader                    : Root WebApplicationContext: initialization completed in 959 ms
+2019-10-24 09:36:46.412  INFO 12660 --- [restartedMain] o.s.s.c.ThreadPoolTaskExecutor           : Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-24 09:36:46.438  INFO 12660 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2019-10-24 09:36:46.506  INFO 12660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2019-10-24 09:36:46.533  INFO 12660 --- [restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-24 09:36:46.534  INFO 12660 --- [restartedMain] c.t.b.TynPa01StartApplication            : Started TynPa01StartApplication in 1.306 seconds (JVM running for 1202.772)
+2019-10-24 09:36:46.536  INFO 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : =============|PropertyRunner:2|=============
+2019-10-24 09:36:46.537 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 이름 : chris
+2019-10-24 09:36:46.537 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 성함 : chris Na2
+2019-10-24 09:36:46.537 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : 나이 : 3
+2019-10-24 09:36:46.538  INFO 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Info Log -> hello prod env
+2019-10-24 09:36:46.538 DEBUG 12660 --- [restartedMain] c.t.b.r.PropertyRunner                   : This is Debug Log-> hello test env
+2019-10-24 09:36:46.540  INFO 12660 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2019-10-24 09:37:25.008  INFO 12660 --- [RMI TCP Connection(65)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2019-10-24 09:37:25.010  INFO 12660 --- [RMI TCP Connection(65)-127.0.0.1] o.s.s.c.ThreadPoolTaskExecutor           : Shutting down ExecutorService 'applicationTaskExecutor'
