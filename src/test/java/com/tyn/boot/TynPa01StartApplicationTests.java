@@ -17,7 +17,7 @@ public class TynPa01StartApplicationTests {
 	
 	@Autowired
 	Environment enviroment;
-
+	
 	@Test
 	public void contextLoads() {
 		//test.properties 에 hyunkee.name=chrisna2 였음...그게 같은지 확인

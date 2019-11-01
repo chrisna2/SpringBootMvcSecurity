@@ -19,7 +19,7 @@ import com.tyn.boot.entitiy.Account;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-//@FixMethodOrder(MethodSorters.NAME_ASCENDING)//이렇게 되면 이름이 역순으로 실행 된다.
+@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class AccountRepositoryTest {
 	
 	Logger log = LoggerFactory.getLogger(AccountRepositoryTest.class);
