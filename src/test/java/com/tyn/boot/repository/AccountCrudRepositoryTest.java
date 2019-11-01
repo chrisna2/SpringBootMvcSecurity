@@ -18,17 +18,17 @@ public class AccountCrudRepositoryTest {
 	@Autowired
 	AccountCrudRepository repository;
 	
-//	@Test
-//	public void test01Insert200() {
-//		
-//		for(int i = 1; i <= 200; i++) {
-//			Account account = new Account();
-//			account.setEmail("member"+i+"@gmsss.com");
-//			account.setUsername("member"+i);
-//			account.setPassword("$%password"+i);
-//			repository.save(account);
-//		}
-//	}
+	@Test
+	public void test01Insert200() {
+		
+		for(int i = 1; i <= 200; i++) {
+			Account account = new Account();
+			account.setEmail("member"+i+"@gmsss.com");
+			account.setUsername("member"+i);
+			account.setPassword("$%password"+(i%10));
+			repository.save(account);
+		}
+	}
 
 	@Test
 	public void test02ByUsername() {
