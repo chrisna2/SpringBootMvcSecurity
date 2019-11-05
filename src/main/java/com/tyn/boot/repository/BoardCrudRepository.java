@@ -6,12 +6,13 @@ import java.util.List;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.Query;
+import org.springframework.data.querydsl.QuerydslPredicateExecutor;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.data.repository.query.Param;
 
 import com.tyn.boot.entitiy.Board;
 
-public interface BoardCrudRepository extends CrudRepository<Board, Long>{
+public interface BoardCrudRepository extends CrudRepository<Board, Long>, QuerydslPredicateExecutor<Board>{
 
 	//List<T> findBy + 속성 이름 (속성타입)
 	public List<Board> findBoardByTitle(String title);

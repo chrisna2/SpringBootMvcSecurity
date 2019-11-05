@@ -7,6 +7,8 @@ import java.util.List;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
@@ -15,7 +17,9 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.test.context.junit4.SpringRunner;
 
+import com.querydsl.core.BooleanBuilder;
 import com.tyn.boot.entitiy.Board;
+import com.tyn.boot.entitiy.QBoard;
 
 
 @RunWith(SpringRunner.class)
@@ -24,6 +28,8 @@ public class BoradRepositoryTest {
 
 	@Autowired
 	BoardCrudRepository repository;
+	
+	Logger logger = LoggerFactory.getLogger(BoradRepositoryTest.class);
 	
 	@Test
 	public void test01Insert200() {
@@ -124,16 +130,44 @@ public class BoradRepositoryTest {
 //		.forEach(board -> System.out.println(Arrays.toString(board)));
 //	}
 
+//	@Test
+//	public void test12ByPage() {
+//		Pageable pageable = PageRequest.of(0, 10);
+//		repository.findByPage(pageable)
+//				  .forEach(b -> System.out.println(b));
+//	}
+	
 	@Test
-	public void test12ByPage() {
+	public void test13Predicate() {
+		
+		String type = "t";
+		String keyword = "17";
+		
+		BooleanBuilder builder = new BooleanBuilder();
+		
+		QBoard board = QBoard.board;
+		
+		if(type.equals("t")) {
+			//기본 where 조건 : title에 keyword를 검색한다.
+			builder.and(board.title.like("%"+keyword+"%"));
+		}
+		
+		//여기서 조건을 추가 한다. bno > 0
+		builder.and(board.bno.gt(0L));
+		
 		Pageable pageable = PageRequest.of(0, 10);
-		repository.findByPage(pageable)
-				  .forEach(b -> System.out.println(b));
+		
+		Page<Board> result = repository.findAll(builder, pageable);
+		
+		logger.info("PAGE SIZE : "+result.getSize());
+		logger.info("TOTAL PAGES : "+result.getTotalPages());
+		logger.info("TOTAL COUNT : "+result.getTotalElements());
+		logger.info("NEXT : "+result.nextPageable());
+		
+		List<Board> list = result.getContent();
+		
+		list.forEach(b -> logger.info(b.toString()));
+		
 	}
-	
-	
-	
-	
-	
 	
 }
