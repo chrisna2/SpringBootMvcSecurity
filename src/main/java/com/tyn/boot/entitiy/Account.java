@@ -13,7 +13,7 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
 @Entity//엔티티 클래스임을 지정하며 DB테이블과 매핑하는 객체를 나타내는 어노테이션
-@Table(name="TBL_ACCOUNT")
+@Table(name="tbl_accounts")
 public class Account {
 	
 	@Id //엔티티의 기본키 : primary key 대응 
