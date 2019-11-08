@@ -5,6 +5,7 @@ import java.sql.Timestamp;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.Index;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
@@ -12,7 +13,8 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
 @Entity
-@Table(name = "tbl_free_replies")
+@Table(name = "tbl_free_replies",
+	   indexes = {@Index(unique = false, columnList="board_bno")}) //게시판의 게시물 넘버에 대해 빠르게 인덱싱을 처리
 public class FreeBoardReply {
 	
 	@Id
