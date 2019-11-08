@@ -1,7 +1,6 @@
 package com.tyn.boot;
 
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import com.tyn.boot.listener.TynStartingListener;

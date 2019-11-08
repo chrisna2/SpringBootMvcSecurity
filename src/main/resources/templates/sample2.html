@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>thymeleaf3</title>
+</head>
+<body>
+    <h1>thymeleaf Test Page</h1>
+    <h3 th:text="${vo}"></h3>
+
+    <!--문자열일이 아닌 HTML 출력-->
+    <div th:utext='${"<h3>"+vo.mid+"</h3>"}'></div>
+    <!--문자열 출력-->
+    <div th:text='${"<h3>"+vo.mid+"</h3>"}'></div>
+
+
+</body>
+</html>

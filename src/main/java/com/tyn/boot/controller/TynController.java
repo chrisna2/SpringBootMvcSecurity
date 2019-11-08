@@ -14,7 +14,6 @@ public class TynController {
 	
 	@GetMapping("/hello")
 	public String hello() {
-		
 		return "hello_"+service.getName();
 	}
 	
