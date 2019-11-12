@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>thymeleaf3</title>
+</head>
+<body>
+    <h5 th:text="${now}"></h5>
+    <h5 th:text="${price}"></h5>
+    <h5 th:text="${title}"></h5>
+    <h5 th:text="${options}"></h5>
+
+    <!-- 날짜 관련 -->
+    <h4 th:text="${#dates.format(now, 'yyyy-MM-dd')}"></h4>
+        <div th:with="timeValue=${#dates.createToday()}">
+            <p>[[${timeValue}]]</p>
+        </div>
+
+    <!-- 숫자 관련 -->
+    <h4 th:text="${#numbers.formatInteger(price,3,'COMMA')}"></h4>
+        <div th:with="priceValue=99.74654">
+            <!-- 정수 처리 -->
+            <p th:text="${#numbers.formatInteger(priceValue, 3,'COMMA')}"></p>
+            <!-- 실수 처리 -->
+            <p th:text="${#numbers.formatDecimal(priceValue, 5, 10,'POINT')}"></p>
+        </div>
+
+    <!-- 문자 관련 -->
+    <h4 th:text="${title}"></h4>
+        <!-- html 안에서 문자열을 강조 처리 가능 -->
+        <span th:utext="${#strings.replace(title,'s','<b>s</b>')}"></span>
+        <ul>
+            <!-- 리스트로 끊어서 처리 -->
+            <li th:each="str:${#strings.listSplit(title,' ')}">
+                [[${str}]]
+            </li>
+
+        </ul>
+
+</body>
+</html>

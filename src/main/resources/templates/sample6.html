@@ -24,6 +24,15 @@
                 <td th:text="${#dates.format(member.regdate, 'yyyy-MM-dd')}"></td>
             </tr>
     </table>
-                
+
+    <!-- 둘이 같은 의미다. -->
+    <div>[[${result}]]</div>
+    <div>[[${#vars.result}]]</div>
+
+    <script th:inline="javascript">
+        var result = [[${result}]];
+        alert(result);
+    </script>
+
 </body>
 </html>

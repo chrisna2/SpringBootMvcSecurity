@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>thymeleaf3</title>
+</head>
+<body>
+    <!--thymeleaf 같은 경우 헤더와 푸터의 값을 궅이 컨트롤러에 적용하여 사용할 필요 없다.-->
+    <div th:insert="~{fragments/header::header}"></div>
+    <!--링크처리 @인데 크게 사용은 안되는 듯. -->
+    <ul>
+        <li><a href="/sample1">sample1</a></li>
+        <li><a href="/sample2">sample2</a></li>
+        <li><a href="/sample3">sample3</a></li>
+        <li><a href="/sample4">sample4</a></li>
+        <li><a href="/sample5">sample5</a></li>
+        <li><a href="/sample6">sample6</a></li>
+        <li><a href="/sample7">sample7</a></li>
+    </ul>
+    <div th:insert="~{fragments/footer::footer}"></div>
+</body>
+</html>
