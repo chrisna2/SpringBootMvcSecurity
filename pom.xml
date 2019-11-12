@@ -72,6 +72,12 @@
 		    <groupId>com.querydsl</groupId>
 		    <artifactId>querydsl-jpa</artifactId>
 		</dependency>
+
+		<!-- thymeleaf -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
+		</dependency>
 		
 	</dependencies>
 
@@ -98,6 +104,9 @@
 					</execution>
 				</executions>
 			</plugin>
+
+			
+
 		</plugins>
 	</build>
 
