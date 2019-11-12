@@ -17,5 +17,4 @@ public class TynController {
 		return "hello_"+service.getName();
 	}
 	
-
 }

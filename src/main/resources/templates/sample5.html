@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>thymeleaf3</title>
+</head>
+<body>
+    <!--정상적으로 문자열이 출력된다.-->
+   <script th:inline="javascript">
+       var result = [[${result}]];
+   </script>
+   
+   <!--이렇게 되면 result의 결과 값이 문자열이아닌 변수처럼 나온다.-->
+   <script>
+        var result = [[${result}]];
+    </script>
+
+</body>
+</html>

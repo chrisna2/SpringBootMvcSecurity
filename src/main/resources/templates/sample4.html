@@ -6,13 +6,15 @@
 </head>
 <body>
     <h1>thymeleaf Test Page</h1>
-    <table border=1>
+    <table border="1" th:with="target='u0000', blackuser='홍길동4'">
+    <!-- target: 테이블 안에서만 사용되는 지역변수 -->
         <tr>
             <td>INDEX</td>
             <td>SIZE</td>
             <td>ODD</td>
             <td>MID</td>
             <td>MName</td>
+            <td>check</td>
             <td>RegDate</td>
         </tr>
         <!-- th:each=(리스트 밸류), (iterator) :  ${컨틀롤러에서 받아온 리스트} -->
@@ -20,8 +22,12 @@
             <td th:text="${indexValue.index}"></td>
             <td th:text="${indexValue.size}"></td>
             <td th:text="${indexValue.odd+' '+indexValue.even}"></td>
-            <td th:text="${member.mid}"></td>
+            <td th:text="${member.mid == target ? 'SECRET':member.mid}">Doe</td>
             <td th:text="${member.mname}"></td>
+            <td th:if="${member.mname}">
+                <a href="/modify" th:if="${member.mname == blackuser}">Modify</a>
+                <p th:unless="${member.mname == blackuser}">View</p>
+            </td>
             <td th:text="${#dates.format(member.regdate, 'yyyy-MM-dd')}"></td>
         </tr>
     </table>

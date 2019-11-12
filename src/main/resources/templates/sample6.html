@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>thymeleaf3</title>
+</head>
+<body>
+    <table border="1" th:inline="text"> 
+            <tr>
+                <td>INDEX</td>
+                <td>SIZE</td>
+                <td>ODD</td>
+                <td>MID</td>
+                <td>MName</td>
+                <td>RegDate</td>
+            </tr>
+            <!-- th:each=(리스트 밸류), (iterator) :  ${컨틀롤러에서 받아온 리스트} -->
+            <tr th:each="member, indexValue : ${list}"> 
+                <td th:text="${indexValue.index}"></td>
+                <td th:text="${indexValue.size}"></td>
+                <td th:text="${indexValue.odd+' '+indexValue.even}"></td>
+                <td th:text="${member.mid}"></td>
+                <td th:text="${member.mname}"></td>
+                <td th:text="${#dates.format(member.regdate, 'yyyy-MM-dd')}"></td>
+            </tr>
+    </table>
+                
+</body>
+</html>
