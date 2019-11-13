@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.tyn.boot</groupId>
-	<artifactId>tyn-pa01-start</artifactId>
+	<artifactId>SpringBootMvcSecurity</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<name>tyn-pa01-start</name>
+	<name>SpringBootMvcSecurity</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -72,7 +72,21 @@
 		    <groupId>com.querydsl</groupId>
 		    <artifactId>querydsl-jpa</artifactId>
 		</dependency>
-		
+
+		<!-- jsp -->
+		<dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+		<!-- jstl -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>jstl</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
 	</dependencies>
 
 	<build>
@@ -98,6 +112,9 @@
 					</execution>
 				</executions>
 			</plugin>
+
+			
+
 		</plugins>
 	</build>
 

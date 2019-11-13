@@ -3,7 +3,9 @@ package com.tyn.boot.entitiy;
 import java.sql.Timestamp;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -33,8 +35,12 @@ public class FreeBoard {
 	@UpdateTimestamp
 	private Timestamp updateDate;
 
-	//양방향 연관관계 설정 : 자유게시판///////////////////////////////
-	@OneToMany(mappedBy = "board")//
+	// 양방향 연관관계 설정 : 자유게시판///////////////////////////////
+	// mappedBy : 지금의 객체가 board라는 키로 묶여있다는 표시 [ bno = board ]
+	// cascade : 게시글이 등록될때 댓글도 같이 저장 될 수 있도록 처리
+	@OneToMany(mappedBy = "board",
+			   cascade=CascadeType.ALL,//지금의 객체가 board라는 키로 묶여있다는 표시 [ bno = board ]
+			   fetch=FetchType.LAZY)//
 	private List<FreeBoardReply> replies;
 	
 	public List<FreeBoardReply> getReplies() {
@@ -96,6 +102,7 @@ public class FreeBoard {
 	
 	
 
+	//반드시 하위 테이블인 replies는 제외 시켜야 된다.
 	@Override
 	public String toString() {
 		return "FreeBoard [bno=" + bno + ", title=" + title + ", writer=" + writer + ", content=" + content
@@ -156,6 +163,5 @@ public class FreeBoard {
 			return false;
 		return true;
 	}
-	
 	
 }
